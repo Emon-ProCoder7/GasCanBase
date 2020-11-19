@@ -1,0 +1,2372 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.6.2 (Linux)">
+	<META NAME="AUTHOR" CONTENT="NIB">
+	<META NAME="CREATED" CONTENT="20180529;51000000000000">
+	<META NAME="CHANGEDBY" CONTENT="NIB">
+	<META NAME="CHANGED" CONTENT="20180529;51100000000000">
+	<META NAME="AppVersion" CONTENT="12.0000">
+	<META NAME="DocSecurity" CONTENT="0">
+	<META NAME="HyperlinksChanged" CONTENT="false">
+	<META NAME="LinksUpToDate" CONTENT="false">
+	<META NAME="ScaleCrop" CONTENT="false">
+	<META NAME="ShareDoc" CONTENT="false">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 8.5in 11in; margin: 1in }
+		P { margin-bottom: 0.08in; direction: ltr; widows: 2; orphans: 2 }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<P STYLE="margin-bottom: 0.14in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Table
+S67. Prediction of damaging effect on MET</FONT></FONT></P>
+<TABLE WIDTH=693 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=58>
+	<COL WIDTH=59>
+	<COL WIDTH=36>
+	<COL WIDTH=41>
+	<COL WIDTH=52>
+	<COL WIDTH=57>
+	<COL WIDTH=54>
+	<COL WIDTH=45>
+	<COL WIDTH=41>
+	<COL WIDTH=32>
+	<COL WIDTH=62>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=28 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>SNP</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>Protein
+			ID</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>Amino
+			acid</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>Amino
+			acid change</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>SIFT</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>PolyPhen2</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>PMut</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>MutPred</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>SNAP2</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>SNP&amp;GO</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><B>PANTHER
+			</B></FONT></FONT>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs80256822</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=41 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">A48V</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.439</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=15 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs35776110</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">A320V</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.314</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			66%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs34589476</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R970C</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.8790
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.219</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			80%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=15 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs121913243</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">H1094R</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.5145
+			              Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.783</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			80%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs121913244</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">H1094Y</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.831</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			80%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=58 HEIGHT=15 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45541232</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">D1180N</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.709
+			</FONT></FONT>
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=41 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			75% </FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=32 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 VALIGN=TOP STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs121913246</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Y1230C</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.8789
+			              Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.678</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			59%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs121913247</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Y1230H</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.692</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			59%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45454696</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">S1254N</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.841</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			59%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Disease</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">rs45532942</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">NP_000236</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">1390</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">D1265Y</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">Damaging</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">Probably
+			Damaging</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">0.7823
+			               Pathological</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">0.899</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">Effect
+			95%</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">Disease</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: #ffff00">Probably
+			Damaging</SPAN></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs33917957</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">N375S</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.234</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			59%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs34349517</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">L238S</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.258
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			63%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45607832</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R970H</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.342
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			53%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs55985569</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">E168D</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.326
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			80%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs56391007</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">T992I</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.5577
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.123
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			91%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs77523018</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">M362T</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.699
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			80%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs35225896</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">I316M</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.255
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			80%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45483396</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">L211W</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.537
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			59%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45553236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R739H</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.5471
+			              Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.438
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45578433</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">A1363T</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.359
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45585831</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">T495I</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.586
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45586239</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">H633L</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.8905
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.569
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45587940</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R739C</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.7844
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.558
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			63%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45602940</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R591W</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.9628
+			               Pathological</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.732
+			</FONT></FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			75%</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45612435</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R1022Q</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.5376
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.454
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			59%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45628136</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Q1067K</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.656
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs56311081</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">S156L</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.407</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs1801762</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_003790</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">476</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">K93E</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.177</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs35469582</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R143Q</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.5106
+			              Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.367
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs35601148</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">T309P</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.468
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45440991</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R793C</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.7653
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.634
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			66%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45441497</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">L402I</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.487
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45446492</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R731Q</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.5187
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.511
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">91%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45450897</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">I834M</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.560
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45460604</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Q559R</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.664
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45471794</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R982M</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.8849
+			              Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.722
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45531032</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">I747V</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.546</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45541232</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">D1180N</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.709
+			</FONT></FONT>
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">75%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45551737</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">P239R</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.880
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">85%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45561544</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">D981E</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.276
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45564937</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">M1031V</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.170
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45571834</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">I1053T</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.5446
+			              Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.587
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">71%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45575240</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">G853C</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.7813
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.574
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">53%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45583838</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">L1097V</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.899
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">53%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45592846</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">T1096S</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.627
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45595632</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">T1261A</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.726
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">75%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45604032</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">G933R</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.7236
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.741
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">80%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs45605635</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Y649C</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.7959
+			       Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.512
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">63%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs56361366</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">S661R</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.6078
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.659
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			</FONT></FONT><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">75%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs61730997</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_003790</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">476</FONT></FONT></P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">A20P</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.057</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			71%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs77651398</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">N45S</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.296</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs79252026</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_003790</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">476</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">V368G</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.8050
+			               Pathological</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.762
+			</FONT></FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			80%</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs112590484</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_003790</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">476</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">S71P</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.6639
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.101
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs115527371</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_003790</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">476</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Q193E</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.594
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs115821778</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_003790</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">476</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">V22M</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Benign</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.072
+			</FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Benign</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs116111155</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_003790</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">476</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">R247C</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.8770
+			              Pathological</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.599
+			</FONT></FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			66%</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Possibly
+			Damaging</FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=14 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs116730904</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_003790</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">476</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">A297V</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.6440
+			               Pathological</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.841</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			59%</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT COLOR="#ff0000"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=58 HEIGHT=13 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">rs121913245</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=59 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">NP_000236</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=36 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">1390</FONT></FONT></P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">M1250T</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=52 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=57 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=54 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.8460
+			               Pathological</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=45 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">0.837</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=41 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Effect
+			75%</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=32 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Neutral</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 9pt">Probably
+			Damaging</FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0.14in"><BR><BR>
+</P>
+</BODY>
+</HTML>

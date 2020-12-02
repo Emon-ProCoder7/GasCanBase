@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#more {display: none;}
+</style>
+</head>
+<body>
+
+<h3 align="center">About GasCanBase-2.0</h3>
+<p style=color:white>Gastric cancer (GC) leads to formation of malignant (cancerous) cells in the lining of the stomach. Junk food, age, diet, and gastric diseases can influence the development of gastric cancer with severe pain and stomach discomfort. Several studies have shown statistical correlation between a list of genes and gastric cancer. With an array of available Single Nucleotide Polymorphism (SNP) data on dbSNP database, we sorted out functional SNPs of these genes by implementing fourteen different sophisticated computational tools for functional and structural assessment, molecular dynamics and free energy calculations. Out of 44000 total number of SNPs found within 40 GC-linked genes, we have predicted the damaging effect of each nsSNP (non-synonymous) on its protein structure through drug binding analysis and structural energy comparison between the wild-type and the mutant structures. We have developed an interactive and comprehensive database named <strong>GasCanBase.</strong><br><span id="dots">...</span><span id="more"><br>The database is enriched with numerous information such as 3D mapping of the most damaging nsSNPs onto wild-type and mutant structures, functional consequences of the damaging nsSNPs on their respective domains and motifs, prioritization of GO (gene Ontology) functions, scrutinizing the interactions network of these genes. Our findings indicate that these nsSNPs can possibly be associated with cancer and play a role in the pathogenesis of GC although detailed studies involving GC patients need to be performed for experimental validation. Along that route, our database is an attempt to establish a comprehensive cornerstone for future research towards developing better therapeutics and discovering novel biomarkers against gastric cancer</span></p>
+<h6 onclick="myFunction()" id="myBtn" style=color:#e2c7df><strong>Read More...</strong></h6>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read More..."; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</body>
+</html>

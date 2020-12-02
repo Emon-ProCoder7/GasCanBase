@@ -1,0 +1,59 @@
+Protein,Protein Type,E Value,Drug Name,Drug type,Action
+NP_000918.2 ,Multidrug resistance protein 1,0,Amrinone,approved,Inhibitor
+,,,Nelfinavir,approved,"Inhibitor,Substrate,Inducer"
+,,1.46E-57,Rifampicin,approved,Inhibitor
+,,,Cisplatin,approved,Inducer
+,,,Sulfinpyrazone,approved,Inhibitor
+,,,Dipyridamole,approved,Inhibitor
+,,,Dinoprostone,approved,Substrate
+,,5.42E-39,Sulfinpyrazone,approved,Inhibitor
+,,,Vinblastine,approved,"Substrate,Inhibitor"
+,,,Cholic Acid,approved,Inducer
+,,,Ofloxacin,approved,Inhibitor
+,,,Verapamil,,
+,,,Sulfinpyrazone,approved,Inhibitor
+NP_000029.2 ,,Novel,Not Available,,
+NP_003591.2 ,Calcium-dependent protein kinase 4,Novel,Not Available,,
+NP_004315.1 ,Bcl-2-like protein 1,Novel,Not Available,,
+NP_004320.2 ,Bone morphogenetic protein receptor type-1A,Novel,Not Available,,
+NP_004337.2 ,Caspase-3,Novel,Not Available,,
+NP_000601.3 ,CD44 antigen,Novel,Not Available,,
+NP_004351.1 ,Cadherin-5,7.22E-45,Lenalidomide,approved,Inhibitor
+NP_004055.1 ,Cyclin-dependent kinase inhibitor 1,Novel,Not Available,,
+NP_004354.3 ,Carcinoembryonic antigen-related cell adhesion molecule 1,Novel,Not Available,,
+NP_001894.2 ,,Novel,Not Available,,
+NP_001091679.1 ,Catenin beta-1,Novel,Not Available,,
+NP_005206.2 ,Neural cell adhesion molecule L1,8.29E-52,Ethanol,approved,
+NP_002345.2 ,Neural cell adhesion molecule L1,8.29E-52,Not Available,approved,
+NP_005243.1,Proto-oncogene c-Fos,0,Not Available,approved,
+NP_000213.1 ,Mast/stem cell growth factor receptor Kit,0,Imatinib,approved,Inhibitor
+NP_000890.1 ,,Novel,Not Available,,
+NP_004976.2 ,,Novel,Not Available,,
+NP_061883.1,,Novel,Not Available,,
+NP_006776.1 ,,Novel,Not Available,,
+NP_000236.2 ,,Novel,Not Available,,
+NP_002403.2 ,,Novel,Not Available,,
+NP_001121363.1 ,72 kDa type IV collagenase,0,Captopril,approved,Inhibitor
+NP_000242.1 ,,Novel,Not Available,,
+NP_005948.3 ,Methylenetetrahydrofolate reductase,0,Methotrexate,approved,Inhibitor
+,,,Fluorouracil,approved,Substrate
+NP_001018016.1 ,,Novel,Not Available,,
+NP_002458.2 ,Myc proto-oncogene protein,Novel,Not Available,,
+NP_002583.1 ,Proliferating cell nuclear antigen,Novel,Not Available,,
+NP_006209.2 ,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",0,Caffeine,,"Substrate,Inhibitor"
+NP_000305.3 ,,Novel,Not Available,,
+NP_000954.1 ,Prostaglandin G/H synthase 2,0,Lenalidomide,,Inhibitor
+,,,Mefenamic acid,,Inhibitor
+NP_001026850.1 ,,Novel,Not Available,,
+NP_004159.2 ,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial",Novel,Not Available,,
+NP_002991.2 ,"Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial",Novel,Not Available,,
+NP_002993.1 ,"Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial",Novel,Not Available,,
+NP_005350.1 ,"Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial",Novel,Not Available,,
+C serine/threonine-protein kinase STK11 ,,,Not Available,,
+NP_000585.2 ,Tumor necrosis factor,3.78E-167,Adalimumab,,
+,,,Infliximab,,Inhibitor
+,,,Amrinone,,Inhibitor
+NP_000537.3 ,Cellular tumor antigen p53,Novel,Not Available,,
+NP_001020537.2 ,Vascular endothelial growth factor A,9.90E-147,Ranibizumab,,
+,,,Gliclazide,Substrate,
+,,,Tromethamine,,

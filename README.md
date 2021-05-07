@@ -1,3 +1,12 @@
+
+[<img align="left" alt="R" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" />](https://github.com/Emon-ProCoder7?tab=repositories&q=&type=&language=rmarkdown)
+   
+
+  <a href="#"><img src="https://badges.pufler.dev/visits/Emon-ProCoder7/Data-Driven-Decision-Making-With-Statistics"> </a>
+
+
+
+
 <h2 align="center"> GasCanBase-2.0 </h2>
 <br>
 
